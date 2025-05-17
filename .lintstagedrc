@@ -1,3 +1,0 @@
-{
-  "*.ts": ["vendor/bin/sail pint --dirty -n -v --ansi", "vendor/bin/sail php vendor/bin/phpstan analyse --memory-limit=1G -n -v --ansi", "vendor/bin/sail php phpcpd.phar app/ config/ database/ routes/ tests/", "vendor/bin/sail pest --colors=always"],
-}
